@@ -1,0 +1,225 @@
+1. What is the triad that was originally developed to highlight the important aspects of information security within an organization?
+
+A. Controllability, auditability, and agility (CAA) 
+B. Visibility, agility, and automation (VAA)
+C. Confidentiality, integrity, and agility (CIA) 
+D. Confidentiality, integrity, and availability (CIA)
+
+Answer: [ D ] Confidentiality, integrity, and availability (CIA)
+
+2. Which security principle involves monitoring, alerting, and auditing actions and changes to the environment in real time?
+
+A. Secure all layers. 
+B. Apply the principle of least privilege.
+ C. Enable traceability. 
+ D. Protect data in transit and at rest.
+
+Answer: [ C ] Enable traceability.
+
+3. What are advantages of cloud computing? (Select TWO.)
+
+A. Stop guessing capacity. 
+B. Trade variable expense for fixed expense. 
+C. Trade fixed expense for variable expense. 
+D. Go global in weeks. E. Provision resources up front.
+
+Answer: [ A, C ] Stop guessing capacity. and Trade fixed expense for variable expense.
+
+4. What are the components of an AWS access key?
+
+A. User name and password 
+B. User name, password, and token 
+C. Access key ID and secret access key 
+D. Access key ID and public access key
+
+Answer: [ C ] Access key ID and secret access key
+
+5. A company wants to establish an identity federation solution for their AWS account. They want to use a single centralized directory for identity management. Which AWS identity federation solution is the best option for the company to employ?
+
+A. AWS CloudTrail
+B. AWS Config 
+C. AWS CloudFormation 
+D. AWS Single Sign-On
+
+Answer: [ D ] AWS Single Sign-On
+
+6. What is a feature of the AWS Identity and Access Management (IAM) service?
+
+A. Decentralized management of users and access 
+B. Temporary access through the use of roles 
+C. Information assurance obfuscation 
+D. Protection against standards-based identity providers
+
+Answer: [ B ] Temporary access through the use of roles
+
+7. Most AWS Identity and Access Management (IAM) policies are defined and stored in a specific document format. Which document format is most commonly used?
+
+A. Security Assertion Markup Language (SAML) 
+B. Hypertext Markup Language (HTML) 
+C. Extensible Markup Language (XML) 
+D. JavaScript Object Notation (JSON)
+
+Answer: [ D ] JavaScript Object Notation (JSON)
+
+8. A company wants to improve their security and compliance tracking without creating additional work or needing additional employees. Which AWS service would help meet the company's needs?
+
+A. AWS Shield 
+B. Amazon Inspector 
+C. AWS Identity and Access Management (IAM) 
+D. Elastic Load Balancing (ELB)
+
+Answer: [ B ] Amazon Inspector
+
+9. A company wants to use an automated security assessment tool to improve the security and compliance of applications that they deploy on AWS. Which AWS service would meet their need?
+
+A. Elastic Load Balancing (ELB) 
+B. Amazon Inspector 
+C. Amazon GuardDuty 
+D. AWS Identity and Access Management (IAM)
+
+Answer: [ B ] Amazon Inspector
+
+10. An administrator wants to increase security by creating an environment where traffic to and from Amazon EC2 instances can be controlled in a stateful manner. Which security feature would meet their needs?
+
+A. Security groups 
+B. Subnets 
+C. Network access control lists (ACLs) 
+D. Elastic Load Balancing (ELB)
+
+Answer: [ A ] Security groups
+
+11. A three-tier web application environment is a modular client-server architecture. Which tiers does this type of application consist of?
+
+A. Presentation, AWS, data 
+B. Application, data, security 
+C. Data, application, internet 
+D. Presentation, application, data
+
+Answer: [ D ] Presentation, application, data
+
+12. A company set up a virtual private cloud (VPC) with public subnets and route tables. The company wants to be able to use the internet to access information from Amazon EC2 instances in the VPC. Which VPC component would allow communication between instances in their VPC and the internet?
+
+A. Internet gateway 
+B. AWS Direct Connect 
+C. Virtual private network (VPN) 
+D. Subnet route table
+
+Answer: [ A ] Internet gateway
+
+13. A company needs to store sensitive documents in an Amazon S3 bucket. The documents must be encrypted at rest at their destination, and the company wants to manage the underlying keys that are used for encryption. Which method could they use for this purpose?
+
+A. Server-side encryption with Amazon S3 managed keys 
+B. Client-side encryption with Amazon Macie 
+C. Client-side encryption 
+D. Server-side encryption with customer-provided keys
+
+Answer: [ D ] Server-side encryption with customer-provided keys
+
+14. What is a characteristic of Amazon S3 server-side encryption with AWS Key Management Service (AWS KMS) keys (SSE-KMS)?
+
+A. The application encrypts data before sending it to AWS. 
+B. The customer can audit usage of the key. 
+C. The customer manages the keys. 
+D. The keys and algorithms are known only to the customer.
+
+Answer: [ B ] The customer can audit usage of the key.
+
+15. A cloud security administrator wants to protect data in transit. Which practice would best accomplish this?
+
+A. Use Secure Sockets Layer (SSL) endpoints over Transport Layer Security (TLS). This method is known as HTTPS. 
+B. Separate workloads by using separate accounts. 
+C. Identify the data within your workload. 
+D. Automate identification and classification of the data.
+
+Answer: [ A ] Use Secure Sockets Layer (SSL) endpoints over Transport Layer Security (TLS). This method is known as HTTPS.
+
+16. An IT administrator needs to ensure that data stored in Amazon S3 is encrypted but does not want to manage the encryption keys. Which encryption mechanism meets these requirements?
+
+A. SSE-SSL 
+B. SSE-AES 
+C. SSE-S3 
+D. SSE-C
+
+Answer: [ C ] SSE-S3
+
+17. Which statement regarding client-side encryption is NOT true?
+
+A. Your application encrypts data before sending it to AWS. 
+B. Data is encrypted at its destination by the application or service that receives the data. 
+C. Data is stored in its encrypted state. 
+D. The keys and algorithms are known only to you.
+
+Answer: [ B ] Data is encrypted at its destination by the application or service that receives the data.
+
+18. Elastic Load Balancing (ELB) captures and compresses logs. Where does ELB store these logs?
+
+A. Amazon DynamoDB database 
+B. Virtual private cloud (VPC) 
+C. Amazon EC2 instance 
+D. Amazon S3 bucket
+
+Answer: [ D ] Amazon S3 bucket
+
+19. Which statement about AWS CloudTrail is true?
+
+A. CloudTrail is not enabled by default. 
+B. Actions taken by a user, role, or AWS service are not recorded. 
+C. Events can be viewed in the CloudTrail console. 
+D. CloudTrail stores application-level logs.
+
+Answer: [ C ] Events can be viewed in the CloudTrail console.
+
+20. Which statement about the benefits of server access logs is true?
+
+A. Server access logs are always reported in real time. 
+B. Server access logs can provide insights regarding the contents of an Amazon S3 bucket.
+C. Server access logs can provide insights into a customer base. 
+D. Server access logs remove the need for security and access audits.
+
+Answer: [ C ] Server access logs can provide insights into a customer base.
+
+21. Which types of information does Amazon CloudWatch collect monitoring and operational data as? (Select THREE.)
+
+A. Incidents 
+B. Events 
+C. Logs 
+D. Metrics 
+E. Objects 
+F. Authentications
+
+Answer: [ B, C, D ] Events, Logs, and Metrics
+
+22. A cloud administrator wants the ability to automatically discover and scan Amazon EC2 instances for vulnerabilities. Which service would provide that capability?
+
+A. Amazon GuardDuty 
+B. AWS Config 
+C. Amazon Inspector 
+D. Amazon CloudWatch
+
+Answer: [ C ] Amazon Inspector
+
+23. What is an industry best practice for handling incidents?
+
+A. Avoid using automated containment capabilities. 
+B. Pre-provision access and tools. 
+C. Limit incident response rehearsals to avoid complacency. 
+D. Identify key personnel, external resources, and tools only after the incident has occurred.
+
+Answer: [ B ] Pre-provision access and tools.
+
+24. An administrator wants to run continuous assessment checks on their resources. The purpose is to verify that these resources comply with their own security policies, industry best practices, and compliance standards. Which AWS service would meet their need?
+
+A. AWS CloudTrail 
+B. Amazon CloudWatch 
+C. AWS Config 
+D. AWS CloudFormation
+
+Answer: [ C ] AWS Config
+
+25. A cloud administrator wants to be able to rapidly launch as many copies of a function as needed to scale to the rate of incoming events. Which AWS service can provide this capability?
+A. AWS Lambda 
+B. AWS Config 
+C. Amazon EC2 Auto Scaling 
+D. Amazon CloudWatch
+
+Answer: [ A ] AWS Lambda
