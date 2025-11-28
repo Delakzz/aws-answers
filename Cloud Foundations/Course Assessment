@@ -1,0 +1,179 @@
+1. Which statement is an advantage of the platform as a service (PaaS) cloud service model?
+
+A. PaaS reduces the need to handle application deployments.
+B. PaaS provides the greatest level of control over IT resources.
+C. PaaS avoids the need to manage operating systems.
+D. PaaS is the most similar to traditional on-premises models for IT resources.
+
+Answer: [ C ] PaaS avoids the need to manage operating systems.
+
+2. How do economies of scale help customers moving to cloud computing from on-premises computing?
+
+A. Customers have full control of their infrastructure.
+B. Customers can achieve lower variable costs and scale infrastructure beyond what is possible on premises.
+C. Customers can deploy resources globally.
+D. Customers can scale servers horizontally.
+
+Answer: [ B ] Customers can achieve lower variable costs and scale infrastructure beyond what is possible on premises.
+
+3. Which statement accurately describes how customers can use AWS Support?
+
+A. Customers should contact their Support Concierge to provide quick and efficient technical support.
+B. Customers must choose one of three support plans: Basic Support, Business Support, and Enterprise Support.
+C. Customers are assigned a Technical Account Manager (TAM) for all AWS Support plans.
+D. Customers can get AWS Support for both experimental non-production accounts and for business-critical production accounts.
+
+Answer: [ D ] Customers can get AWS Support for both experimental non-production accounts and for business-critical production accounts.
+
+4. How does the AWS Billing Dashboard help companies analyze their AWS usage to find potential cost-saving opportunities?
+
+A. The billing dashboard lists the costs that were incurred over the past month by service, by AWS Region, and by linked accounts.
+B. The billing dashboard shows the status of the month-to-date AWS expenditure and the AWS services that account for the majority of the overall expenditure.
+C. The billing dashboard lists all AWS accounts with activity in the previous 6 months and a summary of spending for each account.
+D. The billing dashboard shows the pricing models for all the AWS services that are used in your account and where your usage falls in the AWS Free Tier.
+
+Answer: [ B ] The billing dashboard shows the status of the month-to-date AWS expenditure and the AWS services that account for the majority of the overall expenditure.
+
+5. Which statement about edge locations is true?
+
+A. AWS points of presence provide two to three edge locations per Region.
+B. The AWS global network includes a large number of Regional edge caches and a smaller number of edge locations to deliver content to users.
+C. Amazon CloudFront uses edge locations and Regional edge caches to deliver content with lower latency.
+D. Regional edge caches are used to cache data that's frequently updated and must be refreshed continuously.
+
+Answer: [ C ] Amazon CloudFront uses edge locations and Regional edge caches to deliver content with lower latency.
+
+6. An AWS account administrator wants to grant temporary cross-account access that allows external users to access specific resources within their own account. Which action would align with the best practice of using temporary sessions?
+
+A. Create an AWS Identity and Access Management (IAM) group, grant resource permissions to the group, then add IAM users to the group.
+B. Create a new AWS Identity and Access Management (IAM) user account for each user that needs access.
+C. Create an AWS Identity and Access Management (IAM) role that can be assumed by external users and grant it permissions to the specific resources.
+D. Create an AWS Identity and Access Management (IAM) policy that allows external users to access the specific resources.
+
+Answer: [ C ] Create an AWS Identity and Access Management (IAM) role that can be assumed by external users and grant it permissions to the specific resources.
+
+7. A company must produce reports of any changes to its Amazon EC2 instance settings. Which AWS service should they use?
+
+A. AWS CloudTrail
+B. Amazon CloudWatch
+C. AWS Artifact
+D. AWS Config
+
+Answer: [ D ] AWS Config
+
+8. A network administrator wants to configure a public subnet and route incoming and outgoing traffic to and from an Amazon EC2 instance in the public subnet to the public internet. Which virtual private cloud (VPC) feature should they use?
+
+A. An internet gateway
+B. VPC sharing
+C. A network access control list (ACL)
+D. A network address translation (NAT) gateway
+
+Answer: [ A ] An internet gateway
+
+9. Which statement accurately describes a content delivery network (CDN)?
+
+A. A CDN caches frequently requested files.
+B. A CDN creates fast connections between origin servers.
+C. A CDN speeds up domain name resolution for application servers.
+D. A CDN is a Regional group of servers.
+
+Answer: [ A ] A CDN caches frequently requested files.
+
+10. A company needs to run a short script each time a new item is added to an Amazon S3 bucket. Which compute option meets the need with the least amount of resource provisioning?
+
+A. Write a batch job to run the script on all new items overnight when there's less competition for resources. Run the batch job on Spot Instances.
+B. Set up the script to run in a container, and deploy the container on Amazon Elastic Container Service (Amazon ECS).
+C. Create an AWS Lambda function to run the script whenever a new item is added to the bucket.
+D. Set up a small Amazon EC2 instance that runs code to check for new uploads to the bucket and runs the script.
+
+Answer: [ C ] Create an AWS Lambda function to run the script whenever a new item is added to the bucket.
+
+11. A company has a set of big data processing jobs in Amazon Simple Queue Service (Amazon SQS) that need a lot of compute. Which Amazon EC2 instancing pricing model would meet the need at the lowest possible cost?
+
+A. Spot Instance
+B. Scheduled Reserved Instance
+C. Reserved Instance
+D. On-Demand Instance
+
+Answer: [ A ] Spot Instance
+
+12. A developer wants to use Amazon Elastic Block Store (Amazon EBS) for their application. What action should they take?
+
+A. Attach the Amazon EBS volume to an Amazon EC2 instance.
+B. Attach the Amazon EBS volume to multiple Amazon EC2 instances in multiple Availability Zones.
+C. Replicate the Amazon EBS volume in a different Availability Zone.
+D. Back up the Amazon EBS volume using Snapshots.
+
+Answer: [ A ] Attach the Amazon EBS volume to an Amazon EC2 instance.
+
+13. A company needs to store long-lived data. They need the data to be available immediately, but access patterns are unpredictable. Which Amazon S3 storage class would be most cost-effective?
+
+A. Amazon S3 Intelligent-Tiering
+B. Amazon S3 Standard
+C. Amazon S3 Glacier
+D. Amazon S3 One Zone-Infrequent Access
+
+Answer: [ A ] Amazon S3 Intelligent-Tiering
+
+14. Which scenario describes a good use case for Amazon S3 Standard storage?
+
+A. Hosting website images
+B. Sharing an NFS file system
+C. Act as an EC2 instance store.
+D. Running a relational database
+
+Answer: [ A ] Hosting website images
+
+15. Which feature of Amazon RDS should a company configure to enable high availability?
+
+A. Multi-AZ deployment
+B. Provisioned IOPS storage
+C. Virtual private cloud (VPC) deployment
+D. Encryption with AWS Key Management Service (AWS KMS) keys
+
+Answer: [ A ] Multi-AZ deployment
+
+16. Which scenario best describes a use case for Amazon Aurora?
+
+A. A company needs a highly available PostgreSQL-compatible database.
+B. A company wants to run an Oracle database in the cloud.
+C. A company needs a data warehouse that can be queried using standard business intelligence tools.
+D. A company needs a database to store semistructured data.
+
+Answer: [ A ] A company needs a highly available PostgreSQL-compatible database.
+
+17. Which statement reflects a design principle of the Security pillar of the AWS Well-Architected Framework?
+
+A. Don't deploy a solution to production until you're certain that there are no security risks.
+B. Decentralize permissions management.
+C. Apply security at all layers of an architecture.
+D. Ensure that staff are actively monitoring potential risks manually.
+
+Answer: [ C ] Apply security at all layers of an architecture.
+
+18. What type of alert might be provided by AWS Trusted Advisor?
+
+A. An alert of unauthorized access in an AWS account
+B. An alert that an AWS Identity and Access Management (IAM) user has requested service quota changes
+C. An alert that multi-factor authentication (MFA) isn't activated on an AWS account
+D. An alert of unusual API calls made in an AWS account
+
+Answer: [ C ] An alert that multi-factor authentication (MFA) isn't activated on an AWS account
+
+19. Which scenario should be addressed with a Network Load Balancer?
+
+A. A solution must load balance incoming gRPC requests.
+B. A solution must load balance millions of requests per second while maintaining low latency.
+C. A solution must support routing traffic to a containerized application based on the contents of incoming requests.
+D. A solution must route traffic at the Open Systems Interconnection (OSI) model layer 7.
+
+Answer: [ B ] A solution must load balance millions of requests per second while maintaining low latency.
+
+20. Which statement accurately describes how Amazon EC2 Auto Scaling is used?
+
+A. Amazon EC2 Auto Scaling is useful for dynamic, unpredictable workloads but doesn't add much value for predictable workloads.
+B. The size of an Amazon EC2 Auto Scaling group will scale up and down automatically based on its configuration and the number of instances can't be manually adjusted.
+C. Amazon EC2 Auto scaling is useful for predictable workloads.
+D. Amazon EC2 Auto scaling allows an application to automatically add resources, but it can't automatically scale them back down.
+
+Answer: [ C ] Amazon EC2 Auto scaling is useful for predictable workloads.
